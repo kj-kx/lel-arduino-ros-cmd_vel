@@ -1,0 +1,5 @@
+rosrun tf static_transform_publisher -0.2114 0.12766 0.880129 0.00587184 0.548598 -0.0726529 0.832903 /base_link /camera_link 100
+roslaunch turtlebot_arm_block_manipulation block_manipulation_moveit.launch
+roslaunch turtlebot_arm_block_manipulation block_manipulation_demo.launch
+roslaunch freenect_launch freenect.launch
+roslaunch turtlebot_arm_kinect_calibration calibrate.launch
